@@ -182,3 +182,17 @@
     border-right-color: var(--border);
   }
 }
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #4facfe;
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar a {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
