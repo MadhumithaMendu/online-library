@@ -43,6 +43,7 @@ function BrowseBooks() {
         </div>
       ))}
     </div>
+    {filteredBooks.length === 0 && <p>No books found</p>}
   </div>
 );
 }
