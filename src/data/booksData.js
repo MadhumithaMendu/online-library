@@ -1,0 +1,68 @@
+const booksData = [
+  {
+    id: 1,
+    title: "React Basics",
+    author: "John Doe",
+    category: "fiction",
+    description: "Learn React step by step with practical examples.",
+    rating: 4,
+  },
+  {
+    id: 2,
+    title: "JavaScript Mastery",
+    author: "David Smith",
+    category: "non-fiction",
+    description: "Deep dive into JavaScript concepts.",
+    rating: 5,
+  },
+  {
+    id: 3,
+    title: "Space Odyssey",
+    author: "Arthur Clarke",
+    category: "sci-fi",
+    description: "A journey through space and time.",
+    rating: 4,
+  },
+  {
+    id: 4,
+    title: "AI Revolution",
+    author: "Elon Tech",
+    category: "sci-fi",
+    description: "Future of artificial intelligence.",
+    rating: 5,
+  },
+  {
+    id: 5,
+    title: "Mindset",
+    author: "Carol Dweck",
+    category: "non-fiction",
+    description: "The psychology of success.",
+    rating: 5,
+  },
+  {
+    id: 6,
+    title: "Harry Potter",
+    author: "J.K. Rowling",
+    category: "fiction",
+    description: "A magical adventure story.",
+    rating: 5,
+  },
+  {
+    id: 7,
+    title: "Atomic Habits",
+    author: "James Clear",
+    category: "non-fiction",
+    description: "Build good habits and break bad ones.",
+    rating: 5,
+  },
+  {
+    id: 8,
+    title: "The Martian",
+    author: "Andy Weir",
+    category: "sci-fi",
+    description: "Survival story on Mars.",
+    rating: 4,
+  },
+];
+
+export default booksData;

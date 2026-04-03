@@ -1,0 +1,49 @@
+body {
+  background: #f5f7fa;
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 15px;
+  background: linear-gradient(45deg, #4facfe, #00f2fe);
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Buttons */
+button, .btn {
+  border-radius: 8px !important;
+}
+
+/* Page spacing */
+.container {
+  max-width: 900px;
+}
+
+/* Input */
+input, textarea {
+  border-radius: 8px !important;
+}
