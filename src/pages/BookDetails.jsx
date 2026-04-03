@@ -18,8 +18,7 @@ function BookDetails() {
     <h2>{book.title}</h2>
     <p><b>Author:</b> {book.author}</p>
     <p>{book.description}</p>
-    <p><b>Rating:</b> ⭐ {book.rating}</p>
-
+<p>{"⭐".repeat(book.rating)}</p>
     <Link to="/books/all" className="btn btn-secondary mt-3">
       Back to Browse
     </Link>

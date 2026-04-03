@@ -35,8 +35,7 @@ function BrowseBooks() {
           <div className="card p-3 mb-3">
             <h4>{book.title}</h4>
             <p>✍ {book.author}</p>
-            <p>⭐ {book.rating}</p>
-
+<p>{"⭐".repeat(book.rating)}</p>
             <Link to={`/book/${book.id}`} className="btn btn-primary">
               View Details
             </Link>
