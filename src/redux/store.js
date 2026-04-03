@@ -1,3 +1,4 @@
+// Filter books by category and search
 import { configureStore } from "@reduxjs/toolkit";
 import booksReducer from "./booksSlice";
 

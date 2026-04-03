@@ -18,7 +18,7 @@ function BrowseBooks() {
         book.author.toLowerCase().includes(search.toLowerCase()))
     );
   });
-
+// Filter books by category and search
    return (
   <div className="container mt-4">
     <h2 className="mb-3">📚 Browse Books</h2>
@@ -43,7 +43,7 @@ function BrowseBooks() {
         </div>
       ))}
     </div>
-    {filteredBooks.length === 0 && <p>No books found</p>}
+    
   </div>
 );
 }
