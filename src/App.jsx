@@ -5,6 +5,7 @@ import BookDetails from "./pages/BookDetails";
 import AddBook from "./pages/AddBook";
 import NotFound from "./pages/NotFound";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 // Hide navbar on 404 page
 function Layout() {
@@ -30,6 +31,7 @@ function App() {
     <BrowserRouter>
       <Layout />
     </BrowserRouter>
+    
   );
 }
 
